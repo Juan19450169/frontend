@@ -49,7 +49,7 @@ function Navbar() {
                   <MenuItem>
                     <button
                       className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
-                      onClick={() => navigate("/productos")}
+                      onClick={() => navigate("/products")}
                     >
                       <IoBagSharp className="size-4 fill-white/30" size={30} />
                       Listar
@@ -58,7 +58,7 @@ function Navbar() {
                   <MenuItem>
                     <button
                       className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
-                      onClick={() => navigate("/agregar-producto")}
+                      onClick={() => navigate("/add-products")}
                     >
                       <IoBagAdd className="size-4 fill-white/30" size={30} />
                       Agregar
@@ -79,7 +79,7 @@ function Navbar() {
                   <MenuItem>
                     <button
                       className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
-                      onClick={() => navigate("/refacciones")}
+                      onClick={() => navigate("/parts")}
                     >
                       <IoBagSharp className="size-4 fill-white/30" size={30} />
                       Listar
@@ -88,7 +88,7 @@ function Navbar() {
                   <MenuItem>
                     <button
                       className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
-                      onClick={() => navigate("/agregar-refaccion")}
+                      onClick={() => navigate("/add-parts")}
                     >
                       <IoBagAdd className="size-4 fill-white/30" size={30} />
                       Agregar
