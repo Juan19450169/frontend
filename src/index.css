@@ -1,0 +1,45 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: linear-gradient(to right, #0000ff, #8a2be2, #ff0000); /* Azul, morado y rojo */
+    color: white;
+  }
+  
+  
+.swiper-container {
+    z-index: 10;
+  }
+
+   .swiper-button-next,
+  .swiper-button-prev {
+    margin: 0 20px; /* Espacio horizontal */
+  }
+
+  /* Asegurarse de que las flechas están en su lugar correctamente */
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .swiper-button-next {
+    right: 10px; /* Ajustar la posición de la flecha derecha */
+  }
+
+  .swiper-button-prev {
+    left: 10px; /* Ajustar la posición de la flecha izquierda */
+  }
+
+  .swiper-pagination {
+    margin-top: 10px; /* Espacio entre la parte inferior de la imagen y los puntos de paginación */
+  }
+
+  .swiper-pagination-bullet {
+    margin: 0 5px; /* Espacio entre los puntos de paginación */
+  }
