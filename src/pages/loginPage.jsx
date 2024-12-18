@@ -34,7 +34,7 @@ useEffect( ()=>{
     signin(data);
   });
 return (
-  <div className="flex items-center justify-center h-screen">
+  <div className="flex items-center justify-center h-screen"aria-hidden="false">
   <div className='bg-blue-500 max-w-md p-10 rounded-md'>
   <h1>INICIAR SESION</h1>
   
@@ -101,9 +101,9 @@ return (
         <br></br>
 
         <ReCaptcha 
-          sitekey="6LfFRo4qAAAAAKxtEXJhPpBNev7q_8TycAasdEOS"
+          sitekey="6LecA58qAAAAAAHdHOK5520heSywjWsEFbvnhkR2"
           onChange={ (value)=> setCaptchaValue(value)}
-        
+          aria-hidden='false'
         />
 
 
