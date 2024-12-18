@@ -101,7 +101,7 @@ return (
         <br></br>
 
         <ReCaptcha 
-          sitekey="6LecA58qAAAAAAHdHOK5520heSywjWsEFbvnhkR2"
+          sitekey="6LecA58qAAAAAJ-ClQFboU_9KVDakkkWnU7MRhQq"
           onChange={ (value)=> setCaptchaValue(value)}
           aria-hidden='false'
         />
