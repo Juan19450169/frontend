@@ -110,7 +110,7 @@ function RegisterPage() {
           <br></br>
 
           <ReCaptcha 
-          sitekey="6LfFRo4qAAAAAKxtEXJhPpBNev7q_8TycAasdEOS"
+          sitekey="6LecA58qAAAAAJ-ClQFboU_9KVDakkkWnU7MRhQq"
           onChange={ (value)=> setCaptchaValue(value)}
           aria-hidden='false'
         />
