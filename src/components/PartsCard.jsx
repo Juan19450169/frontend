@@ -6,7 +6,7 @@ import { IoTrashBinSharp, IoPencilSharp } from "react-icons/io5";
 
 // eslint-disable-next-line react/prop-types
 function PartsCard({parts}) {
-    const server = import.meta.env.VITE_BASE_URL+"/img";
+    const server = import.meta.env.VITE_BASE_URL+"/img/";
 
     const {deleteParts}= useParts()
 
