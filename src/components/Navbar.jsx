@@ -45,11 +45,11 @@ function Navbar() {
                   Productos
                   <IoChevronDownSharp className="size-4 fill-white/60" />
                 </MenuButton>
-                <MenuItems className="absolute left-0 top-12 w-52 rounded-xl bg-red-600/70 backdrop-blur-sm text-white p-1 shadow-lg focus:outline-none z-50">
+                <MenuItems className="absolute left-0 top-12 w-52 rounded-xl bg-zinc-800/70 backdrop-blur-sm text-white p-1 shadow-lg focus:outline-none z-50">
                   <MenuItem>
                     <button
-                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
-                      onClick={() => navigate("/products")}
+                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-zinc-700/80"
+                      onClick={() => navigate("/product")}
                     >
                       <IoBagSharp className="size-4 fill-white/30" size={30} />
                       Listar
@@ -57,8 +57,8 @@ function Navbar() {
                   </MenuItem>
                   <MenuItem>
                     <button
-                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
-                      onClick={() => navigate("/add-products")}
+                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-zinc-700/80"
+                      onClick={() => navigate("/add-product")}
                     >
                       <IoBagAdd className="size-4 fill-white/30" size={30} />
                       Agregar
@@ -75,10 +75,10 @@ function Navbar() {
                   Refacciones
                   <IoChevronDownSharp className="size-4 fill-white/60" />
                 </MenuButton>
-                <MenuItems className="absolute left-0 top-12 w-52 rounded-xl bg-red-600/70 backdrop-blur-sm text-white p-1 shadow-lg focus:outline-none z-50">
+                <MenuItems className="absolute left-0 top-12 w-52 rounded-xl bg-zinc-800/70 backdrop-blur-sm text-white p-1 shadow-lg focus:outline-none z-50">
                   <MenuItem>
                     <button
-                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
+                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-zinc-700/80"
                       onClick={() => navigate("/parts")}
                     >
                       <IoBagSharp className="size-4 fill-white/30" size={30} />
@@ -87,7 +87,7 @@ function Navbar() {
                   </MenuItem>
                   <MenuItem>
                     <button
-                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-red-500/80"
+                      className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 hover:bg-zinc-700/80"
                       onClick={() => navigate("/add-parts")}
                     >
                       <IoBagAdd className="size-4 fill-white/30" size={30} />
@@ -138,4 +138,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
