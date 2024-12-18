@@ -5,7 +5,7 @@ import { IoTrashBinSharp, IoPencilSharp } from "react-icons/io5";
 
 // eslint-disable-next-line react/prop-types
 function ProductCard({product}) {
-    const server = import.meta.env.VITE_BASE_URL+"/img";
+    const server = import.meta.env.VITE_BASE_URL+"/img/";
 
     const {deleteProduct}= useProducts()
 

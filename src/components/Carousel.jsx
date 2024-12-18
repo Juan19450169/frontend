@@ -21,7 +21,7 @@ function Carousel() {
         <SwiperSlide>
         <div className="flex justify-center items-center w-full h-full">
           <img
-            src='src/assets/imagen1.jpg'
+            src='/assets/imagen1.jpg'
             alt='Imagen 1'
             className="w-[200x] h-[400px] object-cover rounded-lg"
           />
@@ -30,7 +30,7 @@ function Carousel() {
         <SwiperSlide>
         <div className="flex justify-center items-center w-full h-full">
           <img
-            src='src/assets/imagen2.jpg'
+            src='/assets/imagen2.jpg'
             alt='Imagen 2'
             className="w-[200x] h-[400px] object-cover rounded-lg"
           />
@@ -39,7 +39,7 @@ function Carousel() {
         <SwiperSlide>
         <div className="flex justify-center items-center w-full h-full">
           <img
-            src='src/assets/imagen3.jpg'
+            src='/assets/imagen3.jpg'
             alt='Imagen 3'
             className="w-[200x] h-[400px] object-cover rounded-lg"
           />
@@ -48,7 +48,7 @@ function Carousel() {
         <SwiperSlide>
         <div className="flex justify-center items-center w-full h-full">
           <img
-            src='src/assets/imagen4.jpg'
+            src='/assets/imagen4.jpg'
             alt='Imagen 4'
             className="w-[200x] h-[400px] object-cover rounded-lg"
           />
@@ -57,7 +57,7 @@ function Carousel() {
         <SwiperSlide>
         <div className="flex justify-center items-center w-full h-full">
           <img
-            src='src/assets/imagen5.jpg'
+            src='/assets/imagen5.jpg'
             alt='Imagen 5'
             className="w-[200x] h-[400px] object-cover rounded-lg"
           />
@@ -66,7 +66,7 @@ function Carousel() {
         <SwiperSlide>
         <div className="flex justify-center items-center w-full h-full">
           <img
-            src='src/assets/imagen6.jpg'
+            src='/assets/imagen6.jpg'
             alt='Imagen 6'
             className="w-[200x] h-[400px] object-cover rounded-lg"
           />
@@ -75,7 +75,7 @@ function Carousel() {
         <SwiperSlide>
         <div className="flex justify-center items-center w-full h-full">
           <img
-            src='src/assets/imagen7.jpg'
+            src='/assets/imagen7.jpg'
             alt='Imagen 7'
             className="w-[200x] h-[400px] object-cover rounded-lg"
           />
