@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+
 import PropTypes from "prop-types";
 import { useParts } from "../context/PartsContext";
 import {Link} from 'react-router-dom'
@@ -59,7 +60,7 @@ function PartsCard({parts}) {
 
             </p>
             <p  className="text-slate-300 my-2 flex">
-                <span>Cantidad:</span>{parts.year}
+                <span>Cantidad:</span>{parts.amount}
 
             </p>
 
