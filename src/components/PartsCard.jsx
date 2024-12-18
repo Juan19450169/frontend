@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 import PropTypes from "prop-types";
 import { useParts } from "../context/PartsContext";
 import {Link} from 'react-router-dom'
@@ -73,5 +71,5 @@ function PartsCard({parts}) {
 export default PartsCard
 
 PartsCard.propTypes={
-    product: PropTypes.any
+    parts: PropTypes.any
 }
